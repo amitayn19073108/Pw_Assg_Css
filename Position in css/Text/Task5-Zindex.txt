@@ -1,0 +1,3 @@
+Explain the z-index, with a code example?
+ans:-z-index is a CSS property that controls the stacking order of positioned elements. It is used to determine the order in which elements are stacked on top of each other in the z-axis (depth), affecting their visibility when they overlap. Elements with a higher z-index value will appear on top of elements with a lower value.
+The z-index property in CSS is used to control the stacking order of positioned elements, primarily those with aposition value of absolute, relative, fixed, or sticky. It determines the order in which elements are stacked on topof each other along the z-axis, creating a 3D-like effect even though web pages are inherently 2D.
