@@ -1,0 +1,54 @@
+body, p,h2{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+section{
+min-height:100vh;
+padding-top: 100px;
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: #F4F2FD;
+box-sizing: border-box;
+margin: 50px;
+border: 1px solid black;
+}
+
+.card{
+width: 250px;
+height: fit-content;
+background-color: white;
+border-radius: 7px;
+padding-top: 50px;
+padding-left: 35px;
+}
+.dark{
+background-color: #202842;
+color: white;
+}
+.plan-price{
+font-size: 36px;
+font-weight: 100;
+margin: 12px 0;
+}
+
+.plan-features{
+display: flex;
+align-items: center;
+}
+.Subscribe{
+background-color: #202842;
+color: white;
+border-radius: 24px;
+font-size: 18px;
+padding: 10px 35px;
+margin: 30px auto;
+border-color: transparent;
+}
+
+.dark-btn{
+background-color: white;
+color: black;
+}

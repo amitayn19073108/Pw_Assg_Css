@@ -1,0 +1,50 @@
+
+
+Q2. Explain the role of the following key properties in the Flexbox layout model
+ 1.justify-content
+ 2.align-item
+ 3.gap
+ 4.flex-direction
+5.flex-wrap
+
+
+1. justify-content:
+   - Role: This property determines how the items inside the flex container are aligned along the main axis.
+   - Values:
+     - flex-start: Items are packed at the start of the flex container.
+     - flex-end: Items are packed at the end of the flex container.
+     - center: Items are centered along the main axis.
+     - space-between: Items are evenly distributed with the first item at the start and the last item at the end.
+     - space-around: Items are evenly distributed with equal space around them.
+     - space-evenly: Items are evenly distributed with equal space around them, including at the start and end.
+
+2. align-items:
+   - Role: This property determines how the items inside the flex container are aligned along the cross axis.
+   - Values:
+     - flex-start: Items are aligned at the start of the cross axis.
+     - flex-end: Items are aligned at the end of the cross axis.
+     - center: Items are centered along the cross axis.
+     - baseline: Items are aligned based on their baseline.
+     - stretch: Items are stretched to fill the container along the cross axis.
+
+3. gap:
+   - Role: This property sets the spacing between flex container items.
+   - Value: A length value, such as 10px, or a percentage, representing the gap between items. It can be specified separately for row and column gaps using the row-gap and column-gap properties.
+
+4. flex-direction:
+   - Role: This property defines the direction of the main axis along which the flex container's items are placed.
+   - Values:
+     - row: Items are placed along the horizontal axis.
+     - row-reverse: Items are placed along the horizontal axis in reverse order.
+     - column: Items are placed along the vertical axis.
+     - column-reverse: Items are placed along the vertical axis in reverse order.
+
+5. flex-wrap:
+   - Role: This property controls whether the flex container should wrap its items onto multiple lines if there's not enough space on the main axis.
+   - Values:
+     - nowrap: Items are forced onto a single line.
+     - wrap: Items wrap onto multiple lines from top to bottom.
+     - wrap-reverse: Items wrap onto multiple lines from bottom to top.
+
+These properties provide a powerful set of tools for designing flexible and responsive layouts using the Flexbox model, allowing you to control the alignment, spacing, and flow of items within a flex container.
+
