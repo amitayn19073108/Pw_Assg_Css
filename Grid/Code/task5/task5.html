@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+    Explain the difference between justify-items and justify-self using code examples</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<style>
+    table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 10px;
+}
+th{
+    text-align: center;
+}
+td{text-align: left;
+ width: 500px;
+ 
+}
+</style>
+<body>
+    <table>
+        <tr>
+            <th>justify-items</th>
+            <th>justify-self</th>
+        </tr>
+
+        <tr>
+            <td>justify-items is applied to the grid container and sets the default horizontal alignment for all grid items.</td>
+            <td>justify-self is applied to individual grid items and allows you to override the default alignment set by justify-items.</td>
+        </tr>
+        <tr>
+            <td colspan="2">In summary, justify-items sets the default horizontal alignment for all grid items within the grid container, while
+            justify-self allows you to override that default alignment for individual items.</td>
+        </tr>
+    </table>
+
+
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item item2">Item 2 (aligned to the end)</div>
+    </div>
+</body>
+</html>
