@@ -1,0 +1,4 @@
+Explain the use of grid-auto-row and grid-auto-column using code examples?
+ans:-The grid-auto-rows CSS property specifies the size of an implicitly-created grid row track or pattern of tracks.
+The grid-auto-columns CSS property specifies the size of an implicitly-created grid column track or pattern of tracks.
+
